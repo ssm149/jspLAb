@@ -15,7 +15,7 @@
 	if (name != null && value != null) {
 %>
 application 기본 객체의 속성 설정:
- <%= name %> = <%= value %>
+ <%= application.getAttribute(name) %> = <%= value %>
 <%
 	} else {
 %>
