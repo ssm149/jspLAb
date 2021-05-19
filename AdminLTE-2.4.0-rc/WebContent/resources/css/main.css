@@ -1,0 +1,54 @@
+#visual {
+	height: auto;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.touch_bullet {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	margin-left: -27px;
+}
+
+.touch_bullet li {
+	float: left;
+}
+
+.touch_left_btn {
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	margin-top: -25px;
+}
+
+.touch_right_btn {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	margin-top: -25px;
+}
+
+/* Swipe 2 required styles */
+.swipe {
+	overflow: hidden;
+	visibility: hidden;
+	position: relative;
+}
+
+.swipe-wrap {
+	overflow: hidden;
+	position: relative;
+}
+
+.swipe-wrap>li {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+
+/* END required styles */
+#mySwipe img {
+	width: 100%;
+	max-width: 100%;
+}
