@@ -475,13 +475,13 @@
 					</a>
 						<ul class="treeview-menu">
 							<li><a href="pages/examples/boardGeneral.html"><i
-									class="fa fa-circle-o"></i> 일반게시판</a></li>
+									class="fa fa-circle-o"></i> ì¼ë° ê²ìí</a></li>
 							<li><a href="pages/examples/boardDonga.html"><i
-									class="fa fa-circle-o"></i> 동아 일보</a></li>
+									class="fa fa-circle-o"></i> ëìì¼ë³´ ê²ìí</a></li>
 							<li><a href="pages/examples/chosun.html"><i
-									class="fa fa-circle-o"></i> 조선 일보</a></li>
+									class="fa fa-circle-o"></i> ì¡°ì ë·ì»´</a></li>
 							<li><a href="pages/examples/gallery.html"><i
-									class="fa fa-circle-o"></i> Gallery</a></li>
+									class="fa fa-circle-o"></i> ê°¤ë¬ë¦¬</a></li>
 							<li><a href="pages/examples/invoice.html"><i
 									class="fa fa-circle-o"></i> Invoice</a></li>
 							<li><a href="pages/examples/profile.html"><i

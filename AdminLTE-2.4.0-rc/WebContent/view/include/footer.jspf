@@ -1,8 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
 
   <footer class="main-footer">
     <div class="pull-right hidden-xs">
@@ -211,6 +208,8 @@
 
 <!-- jQuery 3 -->
 <script src="<%= request.getContextPath() %>/resources/bower_components/jquery/dist/jquery.min.js"></script>
+<%-- <script type="text/javascript" src="<%= request.getContextPath() %>/view/main/js/jquery-1.10.2.min.js"></script> --%>
+
 <!-- Bootstrap 3.3.7 -->
 <script src="<%= request.getContextPath() %>/resources/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->

@@ -4,21 +4,6 @@
 <%@ include file="../include/header.jspf" %>
 
 
-
-<link rel="stylesheet" type="text/css" href="css/base.css" media="all" />
-<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
-<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-
-<link rel="stylesheet" type="text/css" href="js/style.css" />
-<script type="text/javascript" src="js/swipe.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/common.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-
-
-
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
 			<!-- Content Header (Page header) -->
@@ -34,50 +19,6 @@
 
 			<!-- Main content -->
 			<section class="content">
-
-
-
-
-	
-
-				<div id="visual">
-				<div id="mySwipe" class='swipe'>
-					<ul class="touch_banner swipe-wrap" style="text-align: center;">
-						<!-- 배너 목록 -->
-						<li><a href="#"><img src="images/visual_img_1.jpg" alt="" /></a></li>
-						<li><a href="#"><img src="images/visual_img_2.jpg" alt="" /></a></li>
-						<li><a href="#"><img src="images/visual_img_3.jpg" alt="" /></a></li>
-					</ul>
-				</div>
-				<ul class="touch_bullet">
-					<!-- 배너 위치 표시 -->
-					<li><img src="images/visual_bullet_on.png" class="active"
-						alt="" /></li>
-					<li><img src="images/visual_bullet_off.png" alt="" /></li>
-					<li><img src="images/visual_bullet_off.png" alt="" /></li>
-				</ul>
-				<p class="touch_left_btn">
-					<!-- 이전 버튼 -->
-					<a href="#"> <img src="images/visual_btn_left.png" alt="이전 배너" />
-					</a>
-				</p>
-				<p class="touch_right_btn">
-					<!-- 이전 버튼 -->
-					<a href="#"> <img src="images/visual_btn_right.png" alt="다음 배너" />
-					</a>
-				</p>
-			</div>
-
-
-
-
-
-
-
-
-
-
-
 
 
 				<!-- Small boxes (Stat box) -->
@@ -601,4 +542,4 @@
 		
 
 
-<%@ include file="../include/footernojq.jspf" %>
+<%@ include file="../include/footer.jspf" %>

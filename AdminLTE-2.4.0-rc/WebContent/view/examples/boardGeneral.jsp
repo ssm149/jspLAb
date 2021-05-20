@@ -178,4 +178,4 @@
 
 
 
-<%@ include file="../include/footernojq.jspf" %>
+<%@ include file="../include/footer_2.jspf" %>

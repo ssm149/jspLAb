@@ -1,9 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
-
 <%@ include file="../include/header.jspf" %>
-
 
 
 
@@ -55,12 +53,6 @@
   </div>
   <!-- /.content-wrapper -->
 
-  
-  
-  <%@ include file="../include/footer.jspf" %>
-  
-  
-  
-  
-  
-  
+
+
+<%@ include file="../include/footer.jspf" %>
