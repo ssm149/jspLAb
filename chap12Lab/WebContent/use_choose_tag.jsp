@@ -20,5 +20,5 @@
 		</c:choose>
 	</ul>
 
-</body>
+</body>			
 </html>
