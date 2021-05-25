@@ -23,7 +23,7 @@ public class MessageDao {
 	public int insert(Connection conn, Message message) throws SQLException {
 		PreparedStatement pstmt = null;
 		try {
-			pstmt = conn.prepareStatement(
+			pstmt = conn.prepareStatement(	
 					"insert into guestbook_message " + 
 					"(guest_name, password, message) values (?, ?, ?)");
 			pstmt.setString(1, message.getGuestName());

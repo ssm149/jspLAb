@@ -20,12 +20,12 @@
 	
 		try {
 			String jdbcDriver = "jdbc:mysql://localhost:3306/chap14?" +
-								"useUnicode=true&characterEncoding=utf8&serverTimezone=UTC";
+								"useUnicode=true&characterEncoding=utf8";
 			String dbUser = "jspexam";
 			String dbPass = "jsppw";
 			
 			conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
-			pstmt = conn.prepareStatement("insert into MEMBERS values (?, ?, ?, ?)");
+			pstmt = conn.prepareStatement("insert into MEMBER values (?, ?, ?, ?)");
 			pstmt.setString(1, memberID);
 			pstmt.setString(2, password);
 			pstmt.setString(3, name);
