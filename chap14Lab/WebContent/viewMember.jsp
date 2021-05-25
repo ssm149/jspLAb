@@ -22,11 +22,11 @@
 	
 	try {
 		String jdbcDriver = "jdbc:mysql://localhost:3306/chap14?" +
-							"useUnicode=true&characterEncoding=utf8";
+							"useUnicode=true";
 		String dbUser = "jspexam";
 		String dbPass = "jsppw";
 		String query = 
-		   "select * from MEMBER where MEMBERID = '"+memberID+"'";
+		   "select * from MEMBERS where MEMBERID = '"+memberID+"'";
 		
 		conn = DriverManager.getConnection(jdbcDriver, dbUser, dbPass);
 		stmt = conn.createStatement();
