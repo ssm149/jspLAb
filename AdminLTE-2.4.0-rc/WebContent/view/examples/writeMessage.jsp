@@ -1,7 +1,7 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page errorPage="errorView.jsp" %>
 <%@ page import="guestbook.model.Message" %>
-<%@ page import="WriteMessageService.jsp.WriteMessageService" %>
+<%@ page import="guestbook.service.WriteMessageService" %>
 <%
 	request.setCharacterEncoding("utf-8");
 %>

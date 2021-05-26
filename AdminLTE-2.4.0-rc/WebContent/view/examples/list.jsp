@@ -1,5 +1,4 @@
 <%@ page contentType="text/html; charset=utf-8" %>
-<%@ include file="../include/header.jspf"%>
 <%@ page import="guestbook.model.Message"%>
 <%@ page import="guestbook.service.MessageListView"%>
 <%@ page import="guestbook.service.GetMessageListService"%>
@@ -55,4 +54,3 @@
 </c:if>
 </body>
 </html>
-<%@ include file="../include/footer.jspf"%>
