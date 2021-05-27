@@ -1,8 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
+<filter-mapping>
+      <filter-name>LoginCheck</filter-name>
+      <url-pattern>/boardDonga/*</url-pattern>
+      <url-pattern>/login/*</url-pattern>
+      <url-pattern>/index/*</url-pattern>
+   </filter-mapping>
+   
 <%@ include file="../include/header.jspf" %>
-
 
 
 
