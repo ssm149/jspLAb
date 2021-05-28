@@ -41,7 +41,7 @@ public class JoinHandler implements CommandHandler {
 		
 		Map<String, Boolean> errors = new HashMap<>();
 		req.setAttribute("errors", errors);
-		
+					
 		joinReq.validate(errors);
 		
 		if (!errors.isEmpty()) {
