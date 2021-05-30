@@ -16,7 +16,7 @@
 	<section class="content-header">
 		<h1>
 			Dashboard <small>Control panel</small>
-		</h1>
+		</h1>				
 		<fmt:message key="GREETING" />
 		<br>
 		<c:if test="${! empty param.id}">
