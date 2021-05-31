@@ -19,7 +19,7 @@ public class ArticleDao {
 	public Article insert(Connection conn, Article article) throws SQLException {
 		PreparedStatement pstmt = null;
 		Statement stmt = null;
-		ResultSet rs = null;
+		ResultSet rs = null;			
 		try {
 			pstmt = conn.prepareStatement("insert into article "
 					+ "(writer_id, writer_name, title, regdate, moddate, read_cnt) "
