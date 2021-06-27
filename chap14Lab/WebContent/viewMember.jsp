@@ -8,7 +8,7 @@
 
 <%
 	String memberID = request.getParameter("memberID");
-%>
+%>										
 <html>
 <head><title>회원 정보</title></head>
 <body>
