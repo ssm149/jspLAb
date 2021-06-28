@@ -37,7 +37,7 @@
 <table border="1">
 <tr>
 	<td>아이디</td><td><%= memberID %></td>
-</tr>
+</tr>							
 <tr>
 	<td>암호</td><td><%= rs.getString("PASSWORD") %></td>
 </tr>
